@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C607FEC2-B0B6-4A21-B6F7-60CEB9322C29}"
 	ProjectSection(SolutionItems) = preProject
 		Local.testsettings = Local.testsettings
@@ -8,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Tests10.vsmdi = Tests10.vsmdi
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Codepack", "Codepack", "{4402274F-C9CF-45EB-BBF2-4FF15ED32A30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6DFBDAF3-FC7C-45CC-8901-D1A6322DE052}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtendedLinguisticServicesTests", "ExtendedLinguisticServices\ExtendedLinguisticServicesTests.csproj", "{3995A0E5-379E-4682-9986-473AF4E7E818}"
 EndProject
@@ -25,19 +31,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sensors", "..\WindowsAPICod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shell", "..\WindowsAPICodePack\Shell\Shell.csproj", "{AA0C00CB-8699-4F37-BFAE-40CA87ACC06D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Codepack", "Codepack", "{4402274F-C9CF-45EB-BBF2-4FF15ED32A30}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6DFBDAF3-FC7C-45CC-8901-D1A6322DE052}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellExtensions", "..\WindowsAPICodePack\ShellExtensions\ShellExtensions.csproj", "{F3C863EC-33F4-4ED2-9D67-00BF3EEEAB64}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellExtensionTests", "ShellExtensionTests\ShellExtensionTests.csproj", "{8E82E837-B4D1-4817-B51A-3F7BAF4723AE}"
 EndProject
 Global
-
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = Tests10.vsmdi
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		CodeAnalysisDebug|Any CPU = CodeAnalysisDebug|Any CPU
 		CodeAnalysisDebug|x64 = CodeAnalysisDebug|x64
@@ -143,29 +141,26 @@ Global
 		{8E82E837-B4D1-4817-B51A-3F7BAF4723AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E82E837-B4D1-4817-B51A-3F7BAF4723AE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8E82E837-B4D1-4817-B51A-3F7BAF4723AE}.Release|x64.ActiveCfg = Release|Any CPU
-		{4445850B-C33E-4BED-A39A-4CEC46AAF0B7}.CodeAnalysisDebug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4445850B-C33E-4BED-A39A-4CEC46AAF0B7}.CodeAnalysisDebug|Any CPU.Build.0 = Debug|Any CPU
-		{4445850B-C33E-4BED-A39A-4CEC46AAF0B7}.CodeAnalysisDebug|x64.ActiveCfg = Debug|Any CPU
-		{4445850B-C33E-4BED-A39A-4CEC46AAF0B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4445850B-C33E-4BED-A39A-4CEC46AAF0B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4445850B-C33E-4BED-A39A-4CEC46AAF0B7}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{4445850B-C33E-4BED-A39A-4CEC46AAF0B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4445850B-C33E-4BED-A39A-4CEC46AAF0B7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4445850B-C33E-4BED-A39A-4CEC46AAF0B7}.Release|x64.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{3995A0E5-379E-4682-9986-473AF4E7E818} = {6DFBDAF3-FC7C-45CC-8901-D1A6322DE052}
 		{730B7513-6B75-4D76-9CB4-18214FD58263} = {6DFBDAF3-FC7C-45CC-8901-D1A6322DE052}
 		{605A0E8A-E237-4240-9727-73D927556862} = {6DFBDAF3-FC7C-45CC-8901-D1A6322DE052}
 		{69A3898C-DD4B-4DED-B1FE-AB2F9E539E66} = {6DFBDAF3-FC7C-45CC-8901-D1A6322DE052}
-		{3995A0E5-379E-4682-9986-473AF4E7E818} = {6DFBDAF3-FC7C-45CC-8901-D1A6322DE052}
-		{8E82E837-B4D1-4817-B51A-3F7BAF4723AE} = {6DFBDAF3-FC7C-45CC-8901-D1A6322DE052}
+		{2E1FB0DF-F9BB-4909-9F32-2D9D022A8E57} = {4402274F-C9CF-45EB-BBF2-4FF15ED32A30}
 		{B2CE24B7-FC5D-49AC-806F-1D88F78A31E9} = {4402274F-C9CF-45EB-BBF2-4FF15ED32A30}
 		{31421787-1A3C-427C-A8AD-C7E2561B2956} = {4402274F-C9CF-45EB-BBF2-4FF15ED32A30}
 		{AA0C00CB-8699-4F37-BFAE-40CA87ACC06D} = {4402274F-C9CF-45EB-BBF2-4FF15ED32A30}
-		{2E1FB0DF-F9BB-4909-9F32-2D9D022A8E57} = {4402274F-C9CF-45EB-BBF2-4FF15ED32A30}
 		{F3C863EC-33F4-4ED2-9D67-00BF3EEEAB64} = {4402274F-C9CF-45EB-BBF2-4FF15ED32A30}
+		{8E82E837-B4D1-4817-B51A-3F7BAF4723AE} = {6DFBDAF3-FC7C-45CC-8901-D1A6322DE052}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F04C35A-2A6B-4AAC-815C-E3067F2E56C8}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Tests10.vsmdi
 	EndGlobalSection
 EndGlobal
